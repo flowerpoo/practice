@@ -1,3 +1,5 @@
+# word count 
+"""
 from collections import Counter
 def word_count(poo):
     try:
@@ -13,3 +15,17 @@ def word_count(poo):
     except Exception as e:
         print(f"Error:{e}")
 word_count("poo.txt")
+"""
+
+# plot
+
+import matplotlib as p
+
+def chart():
+    xvalue=range(1,10)
+    yvalue=[1,3,2,4,3,5]
+    p.plot(xvalue,yvalue)
+    p.xlabel('X Values')
+    p.ylabel('Y Values')
+    p.show()
+chart()
