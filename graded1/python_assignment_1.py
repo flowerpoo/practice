@@ -22,7 +22,7 @@ def check_password_strength(password):
     if not re.search(r'[!@#$%^&*()":{}|<>,.`~]', password):
         print("Passord must contain utleaset one special character")
         return False
-    # All became false then enter into the true condition
+    # All became false then enter true
     return True
 
 password=input("Enter th password: ")
